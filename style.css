@@ -1,0 +1,34 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+
+h1{
+  margin: 0;
+  font-weight: 800;
+  color: #fff;
+}
+h1 span{
+  font-size: .8em;
+  font-weight: 500;
+}
+
+header{
+  background-color: #76c7c0;
+  position: relative;
+}
+
+header .border{
+  position: absolute;
+  bottom: 0;
+  background-image: url(img/ruler.png);
+  width: 100%;
+  height: 10px;
+}
+
+.container{
+  padding: 20px;
+  max-width: 960px;
+}
